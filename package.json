@@ -1,0 +1,14 @@
+{
+  "name": "sharp-corners",
+  "version": "0.0.0",
+  "packageManager": "yarn@4.3.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.27.7"
+  },
+  "scripts": {
+    "pkg:debug": "yarn workspace @pkg/debug"
+  }
+}
